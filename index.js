@@ -65,3 +65,11 @@ console.log(link.getAttribute("href"));
 // Setting/changing an attribute-takes in two arguments,what u wanna change/set and value u wanna change to
 link.setAttribute("href","https://www.enid.com")
 link.innerText = "Miss Dine"
+
+const msg = document.querySelector("p")
+console.log(msg.getAttribute("class"));
+msg.setAttribute("class","success")
+
+msg.setAttribute("style","color:greenyellow")
+
+// para.setAttribute("style","color:orangered")
