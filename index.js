@@ -73,3 +73,10 @@ msg.setAttribute("class","success")
 msg.setAttribute("style","color:greenyellow")
 
 // para.setAttribute("style","color:orangered")
+
+
+const ret = document.getElementById("page-title")
+ret.setAttribute("style","color:Orange")
+console.log(ret.style);
+// getting to know the properties of an element 
+console.log(ret.style.color);
