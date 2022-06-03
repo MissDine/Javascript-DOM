@@ -37,5 +37,6 @@ console.log(ta);
 // Accessing a single tag
 console.log(ta[2]);
 
-
+const cont = document.querySelector(".content")
+console.log(cont.innerText);
 
