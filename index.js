@@ -59,3 +59,9 @@ const people = ["Enid","Pauline","Lilian","Sharon","Doreen"]
 people.forEach(person =>{
     content.innerHTML += `<p>${person}</p>`
 })
+// Getting attributes
+const link = document.querySelector("a")
+console.log(link.getAttribute("href"));
+// Setting/changing an attribute-takes in two arguments,what u wanna change/set and value u wanna change to
+link.setAttribute("href","https://www.enid.com")
+link.innerText = ""
