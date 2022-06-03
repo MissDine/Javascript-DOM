@@ -6,4 +6,8 @@ console.log(para);
 const Par = document.querySelector(".error")
 console.log(Par);
 
+// Getting access to a div with a class name
+const Pa = document.querySelector("div.cal")
+console.log(Pa);
+
 
