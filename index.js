@@ -34,6 +34,8 @@ console.log(err);
 // Get an element by their tag
 const ta = document.getElementsByTagName("p")
 console.log(ta);
+// Accessing a single tag
+console.log(ta[2]);
 
 
 
