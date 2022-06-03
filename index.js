@@ -39,4 +39,7 @@ console.log(ta[2]);
 
 const cont = document.querySelector(".content")
 console.log(cont.innerText);
+// Overwriting an html text
+cont.innerText = "You are a nice woman"
+console.log(cont.innerText);
 
