@@ -83,3 +83,6 @@ console.log(ret.style.color);
 // Adding property
 ret.style.margin = "50px"
 ret.style.fontSize = "5rem"
+ret.style.color = "crimson"
+// Deleting a property-have blank ""
+ret.style.margin = ""
