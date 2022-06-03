@@ -46,6 +46,11 @@ console.log(cont.innerText);
 const aras = document.querySelectorAll("p")
 aras.forEach(par => {
     console.log(par.innerText);
+    // We use += to append some info
     par.innerText += " -New tex"
 })
-
+// Accessing content in a div
+const content = document.querySelector(".content")
+console.log(content.innerHTML);
+// changing content in a div
+content.innerHTML = "<h2>This is a new h2</h2>"
