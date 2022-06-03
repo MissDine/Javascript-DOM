@@ -24,5 +24,10 @@ bbs.forEach(bbs=>{
     console.log(bbs);
 })
 
+// Get an element by ID
+
+// Get an element by Classname
+
+// Get an element by their tag
 
 
