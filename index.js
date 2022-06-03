@@ -54,3 +54,8 @@ const content = document.querySelector(".content")
 console.log(content.innerHTML);
 // changing content in a div
 content.innerHTML = "<h2>This is a new h2</h2>"
+
+const people = ["Enid","Pauline","Lilian","Sharon","Doreen"]
+people.forEach(person =>{
+    content.innerHTML += `<p>${person}</p>`
+})
