@@ -17,5 +17,8 @@ console.log(Ba);
 const bb = document.querySelectorAll("p")
 console.log(bb);
 
+// Accessing a single element with the same tag eg one p in many ps
+console.log(bb[1]);
+
 
 
