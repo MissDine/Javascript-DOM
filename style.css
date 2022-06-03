@@ -1,3 +1,13 @@
 a{
     color: azure;
 }
+.error{
+    padding: 10px;
+    color:rgb(181, 51, 207);
+    border:1px dotted rgb(0, 234, 255);
+}
+.success{
+    padding: 10px;
+    color: aqua;
+    border: 1px dotted palevioletred;
+}

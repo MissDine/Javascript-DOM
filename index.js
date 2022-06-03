@@ -86,3 +86,4 @@ ret.style.fontSize = "5rem"
 ret.style.color = "crimson"
 // Deleting a property-have blank ""
 ret.style.margin = ""
+// Adding,change and removing classes from elements
