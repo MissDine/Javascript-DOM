@@ -87,3 +87,9 @@ ret.style.color = "crimson"
 // Deleting a property-have blank ""
 ret.style.margin = ""
 // Adding,change and removing classes from elements
+const per = document.querySelector("p")
+console.log(per.classList);
+// Adding a class
+per.classList.add("Error")
+// Removing classes from an element
+per.classList.remove("success")
