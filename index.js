@@ -43,3 +43,9 @@ console.log(cont.innerText);
 cont.innerText = "You are a nice woman"
 console.log(cont.innerText);
 
+const aras = document.querySelectorAll("p")
+aras.forEach(par => {
+    console.log(par.innerText);
+    par.innerText += " -New tex"
+})
+
