@@ -28,8 +28,12 @@ bbs.forEach(bbs=>{
 const title = document.getElementById("page-title")
 console.log(title);
 // Get an element by Classname
+// We cannot use for each in a html collection
 const err = document.getElementsByClassName("error")
 console.log(err);
 // Get an element by their tag
+const ta = document.getElementsByTagName("p")
+console.log(ta);
+
 
 
