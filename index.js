@@ -25,7 +25,7 @@ bbs.forEach(bbs=>{
 })
 
 // Get an element by ID
-
+const title = getElementById("page-title")
 // Get an element by Classname
 
 // Get an element by their tag
