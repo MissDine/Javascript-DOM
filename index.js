@@ -80,3 +80,6 @@ ret.setAttribute("style","color:Orange")
 console.log(ret.style);
 // getting to know the properties of an element 
 console.log(ret.style.color);
+// Adding property
+ret.style.margin = "50px"
+ret.style.fontSize = "5rem"
