@@ -105,3 +105,7 @@ Ps.forEach(pss =>{
 }) 
 // We use textContent to find all data regardless if its hidden or not
 // Changing classes of an element
+
+// How to toggle a class-For instance if an ellement has a class we remove it and if it doesn't we add a class
+const Doo = document.querySelector(".page-title")
+Doo.classList.toggle("Test")
