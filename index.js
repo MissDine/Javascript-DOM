@@ -93,3 +93,10 @@ console.log(per.classList);
 per.classList.add("Error")
 // Removing classes from an element
 per.classList.remove("success")
+
+// Changing classes of an element
+let Ps = document.querySelectorAll("p")
+Ps.forEach(pss =>{
+    console.log(pss.classList.add("paragraph"));
+}) 
+// We use textContent to find all data regardless if its hidden or not
