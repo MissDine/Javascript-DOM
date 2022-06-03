@@ -1,3 +1,3 @@
 // The DOM-Creat
-const para = document.querySelector("p")
+const para = document.querySelector(".error")
 console.log(para);
